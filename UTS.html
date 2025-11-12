@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum UTS</title>
+    <link rel="stylesheet" href="UTS.css">
+</head>
+<body>
+    <h2>Registrasi Kendaraan Anda</h2>
+    <div class="container">
+        <form>
+            <label>Status:</label>
+            <input type="radio" name="status" value="mahasiswa"> Mahasiswa
+            <input type="radio" name="status" value="dosen"> Dosen
+            <br><br>
+
+            <label>NIM/NIDN:</label>
+            <input type="text" name="nimnidn"><br><br>
+
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama"><br><br>
+
+            <label>Prodi:</label>
+            <select name="prodi">
+                <option value="">Pilih Prodi</option>
+                <option value="ti">Teknik Informatika</option>
+                <option value="si">Sistem Informasi</option>
+                <option value="bd">Bisnis Digital</option>
+            </select><br><br>
+
+            <label>Jenis Kendaraan:</label>
+            <input type="radio" name="jenis" value="motor"> Motor
+            <input type="radio" name="jenis" value="mobil"> Mobil
+            <br><br>
+
+            <label>NoPol:</label>
+            <input type="text" name="nopol"><br><br>
+
+            <label>Merk:</label>
+            <input type="text" name="merk"><br><br>
+
+            <label>Upload STNK:</label>
+            <input type="file" name="stnk"><br><br>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
